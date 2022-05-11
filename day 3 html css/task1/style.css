@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+#document {
+    background-image: linear-gradient(to bottom right, rgb(8, 113, 250), rgb(20, 202, 230));
+}
+
+#mainframe {
+    display: flex;
+    justify-content: center;
+}
+
+#card {
+    width: 400px;
+    margin-top: 200px;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 100px;
+
+}
+
+.gg-facebook {
+    
+    border-radius: 20%;
+}
+
+#pic {
+    margin-bottom: 20px;
+    border-radius: 60%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 60px;
+
+}
+
+#iconsmain {
+
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+    opacity: 0.4;
+
+}
+
+#followers{
+
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 10px;
+    
+
+}
+.num{
+
+    color: rgb(8, 113, 250);
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+#link{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 4px;
+
+}
+.text{
+    opacity: 0.5;
+}
+.btnback{
+    margin-left: 100;
+    margin-right: 100;
+    margin-top: 20;
+    width: 200px;
+    border-radius: 8px;
+    color: white;
+    
+    background-color: RGB(85, 169, 255);
+    border: none;
+    height: 60;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
